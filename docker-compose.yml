@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  wikipedia-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:80"
+      - "5678:5678"
+    environment:
+      - MONGODB_CONN_STRING=mongodb://mongo-db:27017/
+      - DATABASE_NAME=WIKIDB
+      - COLLECTION_NAME=history_transaction
+    volumes:
+      - .:/app
+
+  mongo-db:
+    image: mongo:5.0
+    ports:
+      - "27017:27017"
