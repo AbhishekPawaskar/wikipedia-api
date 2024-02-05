@@ -29,11 +29,17 @@ $  docker-compose up
 
 #### You may use any tool to send requests to endpoint. Screenshot below displays usage of `ThunderClient` for both the endpoints.
 
+<img width="915" alt="image" src="https://github.com/AbhishekPawaskar/wikipedia-api/assets/46342691/2323f8e3-e844-4630-972e-43e78eda8941">
+
+<img width="982" alt="image" src="https://github.com/AbhishekPawaskar/wikipedia-api/assets/46342691/b69272a3-ea89-46b4-bb09-413db8015fad">
+
+
+
 ##  3. Request-Response Structure:
 
 ### Kindly check the file 'src/datamodels/models.py'
 
-## 4. System
+## 4. System Overview
 
-### this is to display how this could integrate with entire system in general. (as future development)
+![image](https://github.com/AbhishekPawaskar/wikipedia-api/assets/46342691/c72c89ac-504f-4540-8b57-0ae632ec7e32)
 
